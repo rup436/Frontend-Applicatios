@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-forms</title>
+    <style>
+        input[type=text]{
+            width: 200px;
+            padding-left: 60px;
+            margin: 20px;
+            border: none;
+            border-bottom: 2px solid red;
+            color: red;
+            background-color: blueviolet;
+            outline: none;
+            background-image: url(images/2.JPG);
+            transition:width 0.4 ease-in-out;
+        }
+
+        label{
+            margin: 20px;
+            font-weight: bold;
+        }
+
+        input:focus{
+            background-color: brown;
+            color: aqua;
+           width: 70%;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="">First Name</label>
+        <input type="text"><br><br>
+        <label for="">Last Name</label>
+        <input type="text">
+    </form>
+</body>
+</html>

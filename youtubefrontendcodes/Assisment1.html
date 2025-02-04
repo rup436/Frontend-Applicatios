@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form</title>
+</head>
+<style>
+    body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 8px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        input[type="text"], input[type="date"], select {
+            width: 100%;
+            padding: 6px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            background-color: brown;
+            background-image: url(images/4.png);
+            background-position: 200px 200px;
+            padding-left: 100%;
+            transition: width 0.4 ease-in-out;
+            cursor: alias;
+            cursor: all-scroll;
+        }
+        .gender-checkbox, .caste-checkbox {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        input:focus{
+            background-color: aqua;
+            color: blueviolet;
+            width: 100%;
+        }
+
+    
+</style>
+
+<body>
+    <h2>STUDENT'S PROFILE</h2>
+    <form>
+        <table border="1">
+            <tr>
+                <th>Name of pupil (In capital letters):</th>
+                <th colspan="3"><input type="text" name="pupilName"></th>
+            </tr>
+            <tr>
+                <td>Admission sought for Class:</td>
+                <td><input type="text" name="admissionClass"></td>
+                <td>Academic Year:</td>
+                <td><input type="text" name="academicYear"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="dob"></td>
+                <td>Aadhar No.:</td>
+                <td><input type="text" name="aadharNo"></td>
+            </tr>
+            <tr>
+                <td>Place of Birth:</td>
+                <td><input type="text" name="placeOfBirth"></td>
+                <td>State:</td>
+                <td><input type="text" name="state"></td>
+            </tr>
+            <tr>
+                <td>Nationality:</td>
+                <td><input type="text" name="nationality"></td>
+                <td>Religion:</td>
+                <td><input type="text" name="religion"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td colspan="3">
+                    <label class="gender-checkbox"><input type="radio" name="gender" value="Male"> Male</label>
+                    <label class="gender-checkbox"><input type="radio" name="gender" value="Female"> Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Residential Address:</td>
+                <td colspan="3"><input type="text" name="address"></td>
+            </tr>
+            <tr>
+                <td>Mother Tongue:</td>
+                <td><input type="text" name="motherTongue"></td>
+                <td>Blood Group:</td>
+                <td><input type="text" name="bloodGroup"></td>
+            </tr>
+            <tr>
+                <td>Identification Marks:</td>
+                <td colspan="3">
+                    (1) <input type="text" name="mark1"><br>
+                    (2) <input type="text" name="mark2">
+                </td>
+            </tr>
+        </table>
+
+        <h3>Previous Academic Record</h3>
+        <table border="1">
+            <tr>
+                <th>Name of the previous school & location</th>
+                <th>Class</th>
+                <th>Year of Study</th>
+                <th>Percentage/Grade</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="previousSchool"></td>
+                <td><input type="text" name="previousClass"></td>
+                <td><input type="text" name="previousYear"></td>
+                <td><input type="text" name="previousGrade"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

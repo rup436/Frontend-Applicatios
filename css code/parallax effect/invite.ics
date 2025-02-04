@@ -1,0 +1,86 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Nishu Jindal:mailto:nishu.jindal@azalio.io
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=mihirrenuk
+ das66@gmail.com:mailto:mihirrenukdas66@gmail.com
+DESCRIPTION;LANGUAGE=en-US:Hi Rupesh\,\nAs per our discussion\, your Aptitu
+ de test is scheduled for Today (11/10/2024) at 1.00 AM Please join the cal
+ l 5 mins before the scheduled time from your laptop and please keep the vi
+ deo on\nThanks\nNishu.\n\n\n______________________________________________
+ __________________________________\nMicrosoft Teams Need help?<https://aka
+ .ms/JoinTeamsMeeting?omkt=en-US>\nJoin the meeting now<https://teams.micro
+ soft.com/l/meetup-join/19%3ameeting_YjUzN2VkNjktNDY0ZS00NWEyLTk2Y2UtYmNhMm
+ NkYzViNGMy%40thread.v2/0?context=%7b%22Tid%22%3a%22372858c0-38e6-422e-b5bf
+ -6467b55876ce%22%2c%22Oid%22%3a%2226fdc5aa-99da-4943-9f0f-c128923a745c%22%
+ 7d>\nMeeting ID: 440 597 006 841\nPasscode: 9cQC9Y\n______________________
+ __________\nFor organizers: Meeting options<https://teams.microsoft.com/me
+ etingOptions/?organizerId=26fdc5aa-99da-4943-9f0f-c128923a745c&tenantId=37
+ 2858c0-38e6-422e-b5bf-6467b55876ce&threadId=19_meeting_YjUzN2VkNjktNDY0ZS0
+ 0NWEyLTk2Y2UtYmNhMmNkYzViNGMy@thread.v2&messageId=0&language=en-US>\n_____
+ __________________________________________________________________________
+ _\n
+UID:040000008200E00074C5B7101A82E00800000000A14FC8D19C1BDB01000000000000000
+ 010000000F52CFD9DBF9A2248BFACE9ED19B75A4B
+SUMMARY;LANGUAGE=en-US:Aptitude test for Rupesh
+DTSTART;TZID=India Standard Time:20241011T130000
+DTEND;TZID=India Standard Time:20241011T133000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20241011T051710Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2122996897
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_YjUzN2VkNjktNDY0ZS00NWEyLTk2Y2UtYmNhMmNkYzViNGMy%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22372858c0-38e6-422e-b5bf-6467b55876ce%22%2c%22O
+ id%22%3a%2226fdc5aa-99da-4943-9f0f-c128923a745c%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/372858c0-38e6-422e-b5bf-6467b55876ce/26fdc5aa-99da-4943-9f0f-c
+ 128923a745c/19_meeting_YjUzN2VkNjktNDY0ZS00NWEyLTk2Y2UtYmNhMmNkYzViNGMy@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_YjUzN2VkNjktNDY0ZS00NWE
+ yLTk2Y2UtYmNhMmNkYzViNGMy@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

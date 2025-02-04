@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+   <style>
+    p::first-line{
+        color: brown;
+        background-color: aqua;
+    }
+
+    p::first-letter{
+      color: blue;
+      font-size: 50px;
+    }
+
+    h1::before{
+        color: aliceblue;
+        content: url(images/1.jpg);
+    }
+    h1::after{
+        color: aliceblue;
+        content: url(images/1.jpg);
+    }
+
+    ::marker{
+        color: aqua;
+        background-color: green;
+    }
+
+    ::selection{
+        color: crimson;
+        background-color: blue;
+    }
+   </style>
+
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, sint reprehenderit, illum ea fuga iste tempore, numquam architecto minima dolores deserunt aliquam facilis quod optio officiis repudiandae id earum cumque!
+    Cumque consequuntur possimus adipisci, quos reprehenderit vel a maxime harum. Laudantium necessitatibus eius sequi ab quisquam, at distinctio architecto. Enim iusto reprehenderit voluptatibus. Dolorum impedit, vitae dolorem ipsa aliquid adipisci.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, sint reprehenderit, illum ea fuga iste tempore, numquam architecto minima dolores deserunt aliquam facilis quod optio officiis repudiandae id earum cumque!
+        Cumque consequuntur possimus adipisci, quos reprehenderit vel a maxime harum. Laudantium necessitatibus eius sequi ab quisquam, at distinctio architecto. Enim iusto reprehenderit voluptatibus. Dolorum impedit, vitae dolorem ipsa aliquid adipisci.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, sint reprehenderit, illum ea fuga iste tempore, numquam architecto minima dolores deserunt aliquam facilis quod optio officiis repudiandae id earum cumque!
+            Cumque consequuntur possimus adipisci, quos reprehenderit vel a maxime harum. Laudantium necessitatibus eius sequi ab quisquam, at distinctio architecto. Enim iusto reprehenderit voluptatibus. Dolorum impedit, vitae dolorem ipsa aliquid adipisci.</p>
+
+<h1>Hello</h1>
+<h1>world</h1>
+
+<ol>
+    <li>hii</li>
+    <li>Rupesh</li>
+    <li>sutar</li>
+</ol>
+</body>
+</html>

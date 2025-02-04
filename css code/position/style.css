@@ -1,0 +1,45 @@
+.wrapper{
+display: inline-block;
+    height: 100px;
+    width: 100px;
+    width: 2000vw;
+    height:2000vw;;
+    background-color: blueviolet;
+    border: 1px solid black;
+
+   
+}
+
+#div1{
+    background-color: green;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+  margin: 20px;
+}
+
+#div2{
+
+    background-color: green;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+#div3{
+    background-color: green;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+#div4{
+    position: relative ;
+    background-color: green;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}

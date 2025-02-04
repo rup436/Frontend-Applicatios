@@ -1,0 +1,40 @@
+.box{
+     border: 1px solid black;
+     width: 200px;
+     height: 150px;
+     padding: 25px;
+     color: aqua;
+     /* using default direction top to bottm */
+     background-image: linear-gradient(green , orange, black);
+     /* using to right */
+     background-image: linear-gradient(to right , red, blue);
+    /* to left */
+    background-image: linear-gradient(to left, white , black);
+
+    /* to bottom */
+    background-image: linear-gradient(to bottom, orange , black);
+
+    /* to top */
+    background-image: linear-gradient(to top, white , black);
+
+    /* to bottom right */
+     background-image: linear-gradient(to bottom right, rgb(108, 33, 188) , rgb(22, 17, 17));
+
+     /* using angles */
+     background-image: linear-gradient(70deg, brown , black);
+
+     background-image: linear-gradient(to bottom, rgba(255,0, 0,0), rgba(0,0,255,1));
+
+}
+
+
+.radial{
+
+    border: 1px solid black;
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+
+    background-image: radial-gradient( red, black);
+
+}

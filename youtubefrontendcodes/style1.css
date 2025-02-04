@@ -1,0 +1,23 @@
+
+*{
+    margin: 0 px;
+    padding: 0 px;
+    color: white;
+}
+
+nav{
+    background-color: black;
+}
+
+#id1{
+    font-size: 25px;
+    color: yellow;
+}
+
+button{
+    background-color: yellow;
+    color: black;
+}
+nav a{
+    margin-right: 200px;
+}

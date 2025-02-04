@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+   /* veiwport hieght */
+    height: 100vh;
+
+    /* image x axis la scroll nahi karayachi tymule use kela ahe */
+    overflow-x: hidden;
+
+    /* y axis la scroll jhali pahije */
+    overflow-y: auto;
+
+    /* 3d space on kela */
+    perspective: 10px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.bg-image{
+    transform: translateZ(-40px) scale(5);
+}
+
+.men{
+    transform: translateZ(-20px) scale(1);
+ 
+}
+.bg-image, .men{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+
+}
+
+      

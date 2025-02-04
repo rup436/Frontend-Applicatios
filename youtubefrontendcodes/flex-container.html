@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .flex-container{
+            background-color: aqua;
+            padding: 20px;
+            display: flex;
+            margin-left: 40px;
+            flex-wrap: wrap;
+            
+        }
+
+        .flex-container div{
+            background-color: brown;
+            color: azure;
+            padding: 20px;
+            font-size: 40px;
+            margin-right: 20px;
+            
+        }
+
+        .flex-container1{
+            background-color: aqua;
+            padding: 20px;
+            display: flex;
+            margin-left: 40px;
+            flex-flow: row-reverse;
+           justify-content: space-evenly;
+        }
+
+        .flex-container1 div{
+            background-color: rgb(238, 25, 25);
+            color: azure;
+            padding: 20px;
+            font-size: 40px;
+            margin-right: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <br>
+
+
+    <div class="flex-container1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>   
+    </div>
+</body>
+</html>
